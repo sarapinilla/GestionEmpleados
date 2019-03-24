@@ -1,0 +1,14 @@
+.box{
+    width: 90%;
+    height: 0 auto;
+    margin: 20px;
+    padding: 30px;
+    background-color: lemonchiffon;
+    border-radius: 15px;
+    line-height: 30%;
+}
+
+.nombre{
+    font-size: 1.2em;
+    font-weight: 700;
+}

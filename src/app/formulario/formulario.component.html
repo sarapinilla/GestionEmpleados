@@ -1,0 +1,19 @@
+<div class="box">
+  <div class="form-group">
+    <label for="inputNombre">Nombre</label>
+    <input type="text" class="form-control" id="inputNombre" [(ngModel)]="empleado.nombre">
+  </div>
+  <div class="form-group">
+    <label for="inputApellidos">Apellidos</label>
+    <input type="text" class="form-control" id="inputApellidos" [(ngModel)]="empleado.apellidos">
+  </div>
+  <div class="form-group">
+    <select class="form-control" [(ngModel)]="empleado.departamento">
+      <option value="comercial">Comercial</option>
+      <option value="recursoshumanos">RRHH</option>
+      <option value="contabilidad">Contabilidad</option>
+      <option value="direccion">Dirección</option>    
+    </select>
+  </div>
+  <button type="button" class="btn btn-dark" (click)="enviarEmpleado()">Enviar</button>
+</div>
